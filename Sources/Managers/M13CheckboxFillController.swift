@@ -76,8 +76,8 @@ internal class M13CheckboxFillController: M13CheckboxController {
         selectedBoxLayer.transform = CATransform3DIdentity
         
         // Setup the checkmark layer.
-        markLayer.lineCap = kCALineCapRound
-        markLayer.lineJoin = kCALineJoinRound
+        markLayer.lineCap = kCALineCapSquare
+        markLayer.lineJoin = kCALineJoinMiter
         markLayer.rasterizationScale = UIScreen.main.scale
         markLayer.shouldRasterize = true
         markLayer.actions = newActions
