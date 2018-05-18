@@ -23,7 +23,7 @@ internal class M13CheckboxCheckPathGenerator: M13CheckboxPathGenerator {
     struct CheckmarkProperties {
         
         /// The angle between the x-axis, and the line created between the origin, and the location where the extended long arm of the checkmark meets the box. (Diagram: Θ)
-        var longArmBoxIntersectionAngle: CGFloat = 45.0 * CGFloat(Double.pi / 180.0)
+        var longArmBoxIntersectionAngle: CGFloat = 40.0 * CGFloat(Double.pi / 180.0)
         
         /// The distance from the center the long arm of the checkmark draws to, as a percentage of size. (Diagram: S)
         var longArmRadius: (circle: CGFloat, box: CGFloat) = (circle: 0.22, box: 0.33)
@@ -32,13 +32,13 @@ internal class M13CheckboxCheckPathGenerator: M13CheckboxPathGenerator {
         var middlePointRadius: (circle: CGFloat, box: CGFloat) = (circle: 0.133, box: 0.1995)
         
         /// The distance between the horizontal center and the middle point of the checkbox.
-        var middlePointOffset: (circle: CGFloat, box: CGFloat) = (circle: -0.04, box: -0.06)
+        var middlePointOffset: (circle: CGFloat, box: CGFloat) = (circle: -0.06, box: -0.06)
         
         /// The distance from the center of the left most point of the checkmark, as a percentage of size.
-        var shortArmRadius: (circle: CGFloat, box: CGFloat) = (circle: 0.17, box: 0.255)
+        var shortArmRadius: (circle: CGFloat, box: CGFloat) = (circle: 0.19, box: 0.255)
         
         /// The distance between the vertical center and the left most point of the checkmark, as a percentage of size.
-        var shortArmOffset: (circle: CGFloat, box: CGFloat) = (circle: 0.02, box: 0.03)
+        var shortArmOffset: (circle: CGFloat, box: CGFloat) = (circle: -0.01, box: 0.03)
     }
     
     //----------------------------
