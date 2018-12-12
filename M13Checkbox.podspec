@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "M13Checkbox"
-  s.version      = "3.2.2"
+  s.version      = "3.3.2"
   s.summary      = "A beautiful, customizable, extendable, animated checkbox for iOS."
 
   s.description  = <<-DESC
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
                     }
 
 
-  s.author             = { "Brandon McQuilkin" => "brandon.mcquilkin@gmail.com" }
+  s.authors             = { "Brandon McQuilkin" => "brandon.mcquilkin@gmail.com", "Andrea Antonioni" => "andreaantonioni97@gmail.com" }
 
   s.platform     = :ios, '8.0'
 
@@ -33,5 +33,5 @@ Pod::Spec.new do |s|
   s.frameworks = 'Foundation', 'UIKit', 'CoreGraphics'
 
   s.requires_arc = true
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
+  s.swift_version = '4.2'
 end
