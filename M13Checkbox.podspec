@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "M13Checkbox"
-  s.version      = "3.3.2"
+  s.version      = "3.4.0"
   s.summary      = "A beautiful, customizable, extendable, animated checkbox for iOS."
 
   s.description  = <<-DESC
@@ -33,5 +33,5 @@ Pod::Spec.new do |s|
   s.frameworks = 'Foundation', 'UIKit', 'CoreGraphics'
 
   s.requires_arc = true
-  s.swift_version = '4.2'
+  s.swift_version = '5.0'
 end
